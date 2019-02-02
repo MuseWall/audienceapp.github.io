@@ -72,7 +72,7 @@ function setup() {
 	createCanvas(windowWidth, windowHeight);
 	background(100);
   startTime = 0;
-  waitTime = 2000; // 3 segundos
+  waitTime = 200000; // 3 segundos
 
   colours[0] = color('#3E78B2');
 	colours[1] = color('#FA8334');
