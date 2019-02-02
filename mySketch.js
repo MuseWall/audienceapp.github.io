@@ -140,7 +140,7 @@ function draw() {
   }
 }
 
-function mousePressed(){
+function touchStarted(){
 	// FIRST COLUMN
 	if(mouseX>width/4 -75 &&  mouseX< width/4 +75 ){
 		if(mouseY>height/4 -50 && mouseY< height/4 +50){
@@ -187,7 +187,7 @@ function mousePressed(){
 	}
 }
 
-function mouseReleased(){
+function touchEnded(){
 
   sound1.pause();
   sound1.currentTime = 0;
